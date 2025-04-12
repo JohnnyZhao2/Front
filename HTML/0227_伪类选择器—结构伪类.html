@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0227结构伪类</title>
+    <style>
+        /* div>p:last-child{
+            color: red;
+        } */
+
+        /* div>p:nth-child(3n+1){
+            color: red;
+        } */
+/* 
+        div>p:last-of-type {
+            color: red;
+        } */
+
+        div>p:nth-of-type(-n+3) {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        <p>第1个元素</p>
+        <p>第2个元素</p>
+        <p>第3个元素</p>
+        <p>第4个元素</p>
+        <p>第5个元素</p>
+        <p>第6个元素</p>
+        <p>第7个元素</p>
+        <p>第8个元素</p>
+        <p>第9个元素</p>
+        <p>第10个元素</p>
+    </div> -->
+    <div>
+        <span>第1个元素</span>
+        <p>第2个元素</p>
+        <p>第3个元素</p>
+        <p>第4个元素</p>
+        <p>第5个元素</p>
+        <span>第6个元素</span>
+        <p>第7个元素</p>
+        <p>第8个元素</p>
+        <p>第9个元素</p>
+        <p>第10个元素</p>
+    </div>
+</body>
+
+</html>

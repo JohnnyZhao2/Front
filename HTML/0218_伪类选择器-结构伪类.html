@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结构伪类</title>
+    <style>
+        /* 结构一
+        div>p:first-child {
+            color: red;
+        } */
+        /* div p:first-child {
+            color: red;
+        } */
+        p:first-child {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 结构一 -->
+    <!-- <div>
+        <p>Johnny</p>
+        <p>Timmy</p>
+        <p>David</p>
+        <p>Bob</p>
+    </div> -->
+    <p>test01</p>
+    <div>
+        <marquee>
+            <p>test02</p>
+            <p>test03</p>
+            <span>Johnny</span>
+        </marquee>
+        <p>Timmy</p>
+        <p>David</p>
+        <p>Bob</p>
+        <p></p>
+    </div>
+</body>
+
+</html>
